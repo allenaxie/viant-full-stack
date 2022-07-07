@@ -1,0 +1,27 @@
+.main {
+    border-right: 0.5px solid rgba(96, 96, 96, 0.218);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    button {
+        background-color: rgb(26, 26, 26);
+        padding: 0.5rem;
+        border:none;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.432);
+        font-size: 1.5rem;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s all ease-in-out;
+
+        &:hover {
+            background-color: rgb(35, 35, 35);
+        }
+
+        a {
+            &:hover {
+                color: inherit;
+            }
+        }
+    }
+}
